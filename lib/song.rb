@@ -16,8 +16,9 @@ class Song
 
   def self.new_by_filename(filename)
     song = self.new
-#    MP3Importer.file.each do |fi
     filename.split(" - ")
+    song.artist = filename[0]
+    song.name = filename[1]
     song
   end
 
