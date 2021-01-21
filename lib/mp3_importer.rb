@@ -1,5 +1,5 @@
 #parse filenames and send filenames to Song class
-require ".pry"
+#require ".pry"
 
 class MP3Importer
   attr_accessor :path
